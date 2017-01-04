@@ -1,0 +1,29 @@
+<ion-side-menus>
+  <!-- Left menu -->
+  <ion-side-menu side="left" expose-aside-when="large" enable-menu-with-back-views="true">
+        <ion-header-bar align-title="center" class="bar-stable">
+          <h1 class="title">MENU</h1>
+        </ion-header-bar>
+        <ion-content>
+          <ion-list>
+            <ion-item menu-close ui-sref="menu.bookings" >
+              Bookings
+            </ion-item>  
+            <ion-item menu-close ui-sref="menu.bookroom" >
+              Book Room
+            </ion-item>
+            <ion-item menu-close >
+              Feedback
+            </ion-item>
+            <ion-item menu-close >
+              Search
+            </ion-item>
+          </ion-list>
+        </ion-content>
+  </ion-side-menu>
+
+  <ion-side-menu-content edge-drag-threshold="true" drag-content="true">
+    <ion-nav-view name="sideMenuContent"></ion-nav-view>  
+  </ion-side-menu-content>
+
+</ion-side-menus>

@@ -1,0 +1,25 @@
+<ion-pane>
+    <ion-content class="login">
+        <div class="row logo">
+            <div class="col">
+                <img src="img/logo.png" alt="RBS">
+                <h1>Room Booking System</h1>
+            </div>
+        </div>
+        <div class="row loginContainer">
+            <div class="col">
+                <div class="list">
+                  <label class="item item-input item-floating-label">
+                    <span class="input-label">Username</span>
+                    <input ng-model="user.username" type="text" placeholder="Username">
+                  </label>
+                  <label class="item item-input item-floating-label">
+                    <span class="input-label">Password</span>
+                    <input ng-model="user.password" type="password" placeholder="Password">
+                  </label>
+                </div>
+                <button class="button button-block button-balanced submit" ng-click="login();">Done</button>
+            </div>
+        </div>
+    </ion-content>
+</ion-pane>

@@ -1,0 +1,59 @@
+.content-background{
+    background-color: #efefef;
+}
+/* Login */
+.login{
+    background-image: url(../img/loginBG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login .logo{
+    margin-top: 30px;
+    text-align: center;
+}
+.login .logo h1{
+    font-size: 25px;
+    color: #ffffff;
+}
+.login .logo img{
+    margin: 0 auto;
+}
+.login .loginContainer .list label{
+    color: #ffffff;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+}
+.login .loginContainer .list label .input-label,.login .loginContainer .list label input{
+    color: #ffffff;
+}
+.login .submit{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 35px;
+    line-height: 35px;
+}
+/* End of Login */
+/* Book room*/
+.bookRoom .bookRoomContainer .list label{
+    color: #ffffff;
+    border: 0;
+    padding: 10px 5px;
+    border-bottom: 1px solid #387ef5;
+}
+.bookRoom .bookRoomContainer .list label input,.bookRoom .bookRoomContainer .list label select{
+    background-color: #efefef;
+}
+.bookRoomContainer .item-stacked-label select {
+    width: 100%;
+    border: 0;
+    display: block;
+    padding-top: 2px;
+    padding-left: 0;
+    height: 34px;
+    color: #111;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 16px;
+}
+/* End Of Book room*/
